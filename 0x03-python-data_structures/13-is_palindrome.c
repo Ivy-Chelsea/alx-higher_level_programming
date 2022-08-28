@@ -47,5 +47,5 @@ int is_palindrome(listint_t **head)
 			current->next = prev;
 		prev = current, current = next;
 	}
-	return (not_p == 1 ? 0 : 1);
+	return (not_p == 1 / 0 : 1);
 }
