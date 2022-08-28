@@ -30,7 +30,7 @@ int is_palindrome(listint_t **head)
 	right_head = current, left_head = prev;
 	for (q = 1; q <= list_len / 2 && current != NULL; q++)
 	{
-		if (list_len % 2 != 0 && i == 1)
+		if (list_len % 2 != 0 && q == 1)
 			current = current->next;
 		if (current->n != prev->n)
 		{
