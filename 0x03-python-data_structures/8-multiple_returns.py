@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def multiple_return(sentence):
+def multiple_returns(sentence):
     my_tuple = ()
     if len(sentence) == 0:
         my_tuple = 0, "None"
