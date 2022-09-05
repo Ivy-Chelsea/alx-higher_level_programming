@@ -33,7 +33,7 @@ void print_python_list(PyObject *p)
 {
 	long int size = PyList_Size(p);
 	int i;
-	PyListObject *list = (PyistObject *)p;
+	PyListObject *list = (PyListObject *)p;
 	const char *type;
 
 	printf("[*] Python list info\n");
