@@ -7,7 +7,7 @@ void print_python_bytes(PyObject *p)
 {
 	long int size;
 	int i;
-	char *trying_str = NUUL;
+	char *trying_str = NUlL;
 
 	printf("[.] bytes object info\n");
 	if (!PyBytes_Check(p))
