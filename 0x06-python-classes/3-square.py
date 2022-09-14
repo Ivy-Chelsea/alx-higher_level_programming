@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-""" Class square that defines a square based on 2-square.py """
+""" creates class Square """
 
 
 class Square:
+    """ Square class"""
     def __init__(self, size=0):
         if type(size) != int:
             raise TypeError("size must be an integer")
