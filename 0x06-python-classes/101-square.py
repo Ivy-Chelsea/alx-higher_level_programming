@@ -1,13 +1,26 @@
 #!/usr/bin/python3
+"""creates class Square."""
 
 
 class Square:
-    def __init__self, size=0, position=(0, 0)):
+    """ Square class defined
+        Attributes:
+            size (int): Size of square
+            position (tuple): position of space and new lines
+    """
+    def __init__(self, size=0, position=(0, 0)):
+        """initializes
+        Args:
+            size (int): size
+            postion(tuple): postion
+        Returns:
+            None
+        """
 
         self.size = size
         self.position = position
 
-     @property
+    @property
     def size(self):
         """
         getter of size
