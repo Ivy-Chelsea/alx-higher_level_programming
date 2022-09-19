@@ -29,7 +29,7 @@ class Rectangle:
         Args:
             value: width value, must be a positive integer
         """
-        if not instance(value, int):
+        if not isinstance(value, int):
             raise TypeError("width must be an integer")
         if value < 0:
             raise ValueError("width must be >= 0")
