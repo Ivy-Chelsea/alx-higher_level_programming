@@ -2,7 +2,11 @@
 #include <object.h>
 #include <unicodeobject.h>
 
-
+/**
+* print_python_string - function that prints a python string
+* @p: pointer
+* Return: 0 on error
+*/
 void print_python_string(PyObject *p)
 {
 	const char *type = NULL;
