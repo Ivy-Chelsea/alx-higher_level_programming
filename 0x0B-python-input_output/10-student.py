@@ -30,7 +30,7 @@ class Student:
         """
 
         my_dict = dict()
-        if type(attrs) is list and all(type(x) is str fro x in attrs):
+        if type(attrs) is list and all(type(x) is str for x in attrs):
             for x in attrs:
                 if x in self.__dict__:
                     my_dict.upate({x: self.__dict__[x]})
