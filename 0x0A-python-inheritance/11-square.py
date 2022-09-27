@@ -19,7 +19,7 @@ class Square(Rectangle):
         """Initializes a Square
 
         Args:
-            - size of the square
+            - size: size of the square
         """
 
         self.integer_validation("size", size)
