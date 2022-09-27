@@ -4,8 +4,7 @@ Reads from a file and prints
 """
 
 
-def read
-_file(filename=""):
+def read_file(filename=""):
     """Reads from filename and prints
     its contents to the stdout
 
