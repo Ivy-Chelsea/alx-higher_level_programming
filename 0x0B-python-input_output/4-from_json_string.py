@@ -1,4 +1,4 @@
-#!usr/bin/python3
+#!/usr/bin/python3
 """Module 4-from_json_string
 Returns an object represented by a JSON string
 """
