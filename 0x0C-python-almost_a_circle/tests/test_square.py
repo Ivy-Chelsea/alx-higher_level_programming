@@ -121,7 +121,7 @@ class TestSquare(unittest.TestCase):
         s1.update()
         self.assertEqual(s1.size, 7)
         self.assertEqual(s1.id, 89)
-        self.assertEqual(s1.y 1)
+        self.assertEqual(s1.y, 1)
 
     def test_12_1(self):
         """Test for update method on Square with wrong types"""
@@ -143,7 +143,7 @@ class TestSquare(unittest.TestCase):
         self.assertEqual(len(s1_dictionary), len(s_dictionary))
         self.assertEqual(type(s1_dictionary), dict)
         s2 = Square(1, 1)
-        s2.pdate(**s1_dictionary)
+        s2.update(**s1_dictionary)
         s2_dictionary = s2.to_dictionary()
         self.assertEqual(len(s1_dictionary), len(s2_dictionary))
         self.assertEqual(type(s2_dictionary), dict)
