@@ -54,7 +54,7 @@ class Base:
         Args:
             - list_objs: list of instances who inherits of Base
         """
-        if list_objs is nONE OR LIST_OBJS == []:
+        if list_objs is None or list_objs == []:
             jstr = "[]"
         else:
             jstr = cls.to_json_string([o.to_dictionary() for o in list_objs])
@@ -97,14 +97,14 @@ class Base:
         """Returns a list of instances"""
 
         filename = cls.__name__ + ".json"
-        lst = []
+        l = []
         if os.path.exists(filename):
             with open(filename, 'r') as f:
                 s = f.read()
                 list_dicts = cls.from_json_string(s)
                 for d in list_dicts:
-                    lst.append(cls.create(**d))
-        return lst
+                    l.append(cls.create(**d))
+        return l
 
     @classmethod
     def save_to_file_csv(cls, list_objs):
