@@ -7,15 +7,15 @@ import json
 from models.base import Base
 
 
-class Rectangle
-"""Class describing a rectangle
-Public instance method:
-     - area()
-     - display()
-     - to_dictionary()
-     - update()
-Inherits from Base
-"""
+class Rectangle(Base):
+     """Class describing a rectangle
+     Public instance method:
+          - area()
+          - display()
+          - to_dictionary()
+          - update()
+     Inherits from Base
+     """
 
     def __init__(self, width, height, x=0, y=0, id=None):
         """Initializes a Rectangle instance
