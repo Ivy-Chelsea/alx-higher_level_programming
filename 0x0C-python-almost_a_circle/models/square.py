@@ -39,7 +39,7 @@ class Square(Rectangle):
 
     @property
     def size(self):
-    """Retrieves the size attribute"""
+        """Retrieves the size attribute"""
 
     if type(value) is not int:
         raise ValueError("width must be an integer")
