@@ -108,9 +108,9 @@ class Rectangle(Base):
      def display(self):
            """Prints the Rectangle instance with the # character."""
 
-          for y in range(0, self.__y):
+           for y in range(0, self.__y):
                print()
-          for i in range(0, self.__height):
+           for i in range(0, self.__height):
                for x in range(0, self.__x):
                     print(" ", end="")
                for j in range(0, self.__width):
@@ -118,23 +118,23 @@ class Rectangle(Base):
                print()
 
      def __str__(self):
-          """Returns a string representation of a Rectangle instance."""
+           """Returns a string representation of a Rectangle instance."""
 
-          s = "[Rectangle] ({}) {}/{} - {}/{}".format(
+           s = "[Rectangle] ({}) {}/{} - {}/{}".format(
                self.id, self.__x, self.__y, self.__width, self.__height)
-          return s
+           return s
 
      def update(self, *args, **kwargs):
-          """Updates attributes of an instance.
-          Args:
+           """Updates attributes of an instance.
+           Args:
                - id attribute
                - width attribute
                - height attribute
                - x attribute
                - y attribute
-          """
+           """
 
-          if args is not None and len(args) != 0:
+           if args is not None and len(args) != 0:
                if len(args) >= 1:
                     if type(args[0]) != int and args[0] is not None:
                          raise TypeError("id must be an integer")
@@ -147,7 +147,7 @@ class Rectangle(Base):
                     self.x = args[3]
                if len(args) > 4:
                     self.y = args[4]
-          else:
+           else:
                for key, value in kwargs.items():
                     if key == "id":
                          if type(value) != int and value is not None:
@@ -163,8 +163,8 @@ class Rectangle(Base):
                          self.y = value
 
      def to_dictionary(self):
-          """Returns the dictionary representation of a Rectangle."""
+           """Returns the dictionary representation of a Rectangle."""
 
-          my_dict = {'id': self.id, 'width': self.__width,
+           my_dict = {'id': self.id, 'width': self.__width,
                      'height': self.__height, 'x': self.__x, 'y': self.__y}
-          return my_dict
+           return my_dict
