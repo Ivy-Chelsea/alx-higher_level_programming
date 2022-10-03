@@ -42,12 +42,12 @@ class Rectangle(Base):
 
      @property
      def height(self):
-        """Retrieves the height attribute"""
+          """Retrieves the height attribute"""
 
-        return self.__height
+          return self.__height
 
-    @property
-    def x(self):
+     @property
+     def x(self):
           """Retyrieves the x attribute"""
 
           return self.__x
@@ -168,4 +168,3 @@ class Rectangle(Base):
           my_dict = {'id': self.id, 'width': self.__width,
                      'height': self.__height, 'x': self.__x, 'y': self.__y}
           return my_dict
-          
