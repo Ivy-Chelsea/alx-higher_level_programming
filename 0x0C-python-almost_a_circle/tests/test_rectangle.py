@@ -52,7 +52,7 @@ class TestRectangle(unittest.TestCase):
         self.assertEqual(r2.x, 4)
         self.assertEqual(r2.y, 5)
         
-     def test_2_2(self):
+    def test_2_2(self):
         """Test class Rectangle: check for missing arguments."""
 
         with self.assertRaises(TypeError) as x:
@@ -245,4 +245,4 @@ class TestRectangle(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    unittest.main()
+    unittest.main()    
