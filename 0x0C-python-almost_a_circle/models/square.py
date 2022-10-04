@@ -2,6 +2,7 @@
 """
 This module implements a square object
 """
+from models.rectangle import Rectangle
 
 
 class Square(Rectangle):
