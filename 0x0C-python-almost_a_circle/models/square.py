@@ -52,4 +52,4 @@ class Square(Rectangle):
         size = self.__size
         x = self.x
         y = self.y
-        return {'id': id, 'x':x, 'size':size, 'y':y}
+        return {'id': id, 'x': x, 'size': size, 'y': y}
