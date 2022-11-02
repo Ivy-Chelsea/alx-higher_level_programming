@@ -3,4 +3,4 @@
 SELECT `score`, `name`
 FROM `second_table`
 WHERE `score` >= 10
-ODER BY `score` DESC;
+ORDER BY `score` DESC;
