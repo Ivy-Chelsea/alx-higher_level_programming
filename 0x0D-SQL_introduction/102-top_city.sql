@@ -1,4 +1,5 @@
- -- Displays 3 cities with highest average temps btwn July & August
+ -- Displays 3 cities with highest average
+ -- temps btwn July & August
 SELECT `city`, AVG(`value`) AS `avg_temp`
 FROM `temperatures`
 WHERE `month` = 7 OR `month` = 8
