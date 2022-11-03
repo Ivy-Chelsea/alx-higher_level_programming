@@ -21,4 +21,4 @@ File | Description
 [100-not_my_genres.sql](./100-not_my_genres.sql) | A script that uses hbtn_0d_tvshows databases to list all genres not linked to the show Dexter
 [101-not_a_comedy.sql](./101-not_a_comedy.sql) | A script that lists all shows without the gente Comedy in the database hbtn_0d_tvshows. Each record should display: tv_shows.title
 [102-rating_shows.sql](./102-rating_shows.sql) | A script that list all shows from hbtn_0d_tvshows by their rating
-[103-rating_genres.sql](./103-rating_genres.sql)  A script that lists all genres in the database hbtn_0d_tvshows_rate by their rating using only the SELECT statement
+[103-rating_genres.sql](./103-rating_genres.sql) | A script that lists all genres in the database hbtn_0d_tvshows_rate by their rating using only the SELECT statement
