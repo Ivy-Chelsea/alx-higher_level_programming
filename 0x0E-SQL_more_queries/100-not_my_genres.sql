@@ -1,0 +1,3 @@
+-- Lists all genres of the database hbtn_0d_tv shows
+-- Not linked to the show Dexter
+-- Records are sorted by ascending genre name
