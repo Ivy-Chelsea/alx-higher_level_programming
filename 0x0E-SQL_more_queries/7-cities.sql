@@ -1,0 +1,1 @@
+-- Creates the database hbtn_0d_usa with the table cities
