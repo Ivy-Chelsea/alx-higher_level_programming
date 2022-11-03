@@ -1,0 +1,1 @@
+-- Creates the table hbtn_0d_usa with table states
