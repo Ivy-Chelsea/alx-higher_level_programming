@@ -4,7 +4,7 @@ Lists all states with name starting with N from database
 """
 
 import MySQLdb
-from sys impory argv
+from sys import argv
 
 def get_states(username, password, dbname):
     """lists all states with a name starting with N from the database"""
