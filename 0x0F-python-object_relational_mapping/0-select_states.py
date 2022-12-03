@@ -16,9 +16,10 @@ def get_states(username, password, dbname):
     cur.execute("SELECT * FROM states ORDER BY id;")
     rows = cur.fetchall()
     for row in rows:
-            print(row)
+        print(row)
     cur.close()
     db.close()
 
+    
 if __name__ == '__main__':
     get_states(argv[1], argv[2], argv[3])
