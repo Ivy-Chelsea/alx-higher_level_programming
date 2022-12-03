@@ -1,9 +1,13 @@
 #!/usr/bin/python3
+"""
+Script that takes name of state as argument and lists all cities in that state
+"""
 
 import sys
 import MySQLdb
 
 if __name__ == "__main__":
+    """script should take 4 arguments"""
     db = MySQLdb.connect(user=sys.argv[1], passwd=sys.argv[2], db=sys.argv[3])
     c = db.cursor()
     c.execute("SELECT * FROM `cities` as `c` \
