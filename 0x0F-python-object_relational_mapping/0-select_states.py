@@ -20,6 +20,6 @@ def get_states(username, password, dbname):
     cur.close()
     db.close()
 
-    
+
 if __name__ == '__main__':
     get_states(argv[1], argv[2], argv[3])
