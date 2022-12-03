@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+Script containing State class definition and declarative_base () instance
+"""
 
 from sqlalchemy import Column, Foreignkey, Integer, String
 from sqlalchemy.ext.declarative import declarative_base
