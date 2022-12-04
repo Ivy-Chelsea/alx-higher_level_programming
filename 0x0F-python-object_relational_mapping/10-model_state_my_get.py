@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-"""Lists the state object with the name passed as argument
-from database hbtn_0e_6_usa
+"""
+Lists the State object with the name passed as argument
+from the database hbtn_0e_6_usa.
 """
 
 import sys
@@ -21,5 +22,5 @@ if __name__ == "__main__":
             print("{}".format(state.id))
             found = True
             break
-        if found is False:
-            print("Not found")
+    if found is False:
+        print("Not found")
