@@ -9,7 +9,7 @@ from sqlalchemy.ext.declarative import declarative_base
 Base = declarative_base()
 
 
-class City(Base):
+class State(Base):
     """Represents a city for MySQL database
 
     Attributes:
