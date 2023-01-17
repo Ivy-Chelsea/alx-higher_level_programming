@@ -14,7 +14,7 @@ request(url, function (err, response, body) {
       if (task.completed === true) {
         if (completed[task.userId] === undefined) {
           completed[task.userId] = 1;
-	} else {
+        } else {
           completed[task.userId]++;
         }
       }
