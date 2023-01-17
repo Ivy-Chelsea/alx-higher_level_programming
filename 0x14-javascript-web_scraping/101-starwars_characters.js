@@ -11,7 +11,7 @@ request(url, function (error, response, body) {
 function printCharacters (characters, index) {
   request(characters[index], function (error, response, body) {
     if (!error) {
-      console.log(JSON. parse(body).name);
+      console.log(JSON.parse(body).name);
       if (index + 1 < characters.length) {
         printCharacters(characters, index + 1);
       }
